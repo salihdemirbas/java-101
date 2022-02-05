@@ -31,8 +31,17 @@ public class HesapMakinesi {
             System.out.println("Sonuc: "+sonuc);
         }
         else if(secim==4){
+            if(n2==0){
+                System.out.println("İkinci sayi 0 olamaz..");
+            }
+            else{
             sonuc=n1/n2;
-            System.out.println("Sonuc: "+sonuc);
+            System.out.println("Sonuc: "+sonuc);}
+
+        }
+        else{
+            System.out.println("Hatalı secim yaptiniz...");
+            System.out.println("Çıkış yapılıyor....");
         }
     }
 }
